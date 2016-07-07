@@ -54,11 +54,11 @@ function simps(y, dx::Number)
     for i in 2:2:n-1
         r += y[i]
     end
-    r *= 2.0
+    r *= 2.0 #TODO: this forces the output to be Float64
     for i in 3:2:n-2
         r += y[i]
     end
-    r *= 2.0
+    r *= 2.0 #TODO: this forces the output to be Float64
     for i in (1,n)
         r += y[i]
     end

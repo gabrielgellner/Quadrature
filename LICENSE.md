@@ -1,6 +1,7 @@
 The Quadrature.jl package is licensed under the MIT "Expat" License:
 
 > Copyright (c) 2016: Gabriel Gellner.
+> Including code from: Cameron McBride under the same license
 >
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the

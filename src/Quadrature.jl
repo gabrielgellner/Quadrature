@@ -1,5 +1,6 @@
 module Quadrature
 
-# package code goes here
+include("basic.jl")
+export trapz, simps
 
 end # module
